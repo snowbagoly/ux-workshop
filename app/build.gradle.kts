@@ -63,4 +63,7 @@ teamscale {
 		userName = "admin"
 		userAccessToken = "sfgbGcTFdaoMPRqjMbNgbPryXKknysbu"
 	}
+	report {
+		jacoco()
+	}
 }
