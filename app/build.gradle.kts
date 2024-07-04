@@ -1,7 +1,10 @@
 plugins {
     application
     jacoco
+    id("com.teamscale") version "27.0.1"
 }
+
+
 
 repositories {
     mavenCentral()
@@ -50,4 +53,14 @@ tasks.jacocoTestReport {
         html.required = false
         xml.required = true // xml report generated under: build/reports/jacoco/test/jacocoTestReport.xml
     }
+}
+
+
+teamscale {
+	server {
+		url = 'https://g5.teamscale.dev'
+		project = 'asdf'
+		userName = 'admin'
+		userAccessToken = "sfgbGcTFdaoMPRqjMbNgbPryXKknysbu"
+	}
 }
