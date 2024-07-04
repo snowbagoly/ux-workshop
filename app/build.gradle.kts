@@ -58,9 +58,9 @@ tasks.jacocoTestReport {
 
 teamscale {
 	server {
-		url = 'https://g5.teamscale.dev'
-		project = 'asdf'
-		userName = 'admin'
+		url = "https://g5.teamscale.dev"
+		project = "asdf"
+		userName = "admin"
 		userAccessToken = "sfgbGcTFdaoMPRqjMbNgbPryXKknysbu"
 	}
 }
